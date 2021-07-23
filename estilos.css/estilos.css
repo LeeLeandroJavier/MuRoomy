@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.principal {
+    position: absolute;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin: 0;
+    margin-bottom: 2vh;
+    padding: 0;
+    background-image: url(../mu2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 97vh;
+}
+h1 {
+    display: inline-block;
+    position: relative;
+    left: 1.13em;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    -webkit-text-stroke: 1px black;
+}
+.container {
+    display: block;
+    position: sticky;
+    zoom: 300%;
+    height: 13em;
+    width: 14em;
+    left: 0;
+    right: 0;
+    top: 5vh;
+    bottom: 0;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+.red {
+    background-color: #a00c40;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #a00c40 inset, 0 0 0 0 #a00c40;
+}
+.red:hover {
+    box-shadow: 0 0 5px 0 #b12541 inset, 0 0 5px 4px #e33758;
+}
+
+.blue {
+    background-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #0098db inset, 0 0 0 0 #3498db;
+}
+.blue:hover {
+    box-shadow: 0 0 5px 0 #3498db inset, 0 0 5px 4px #3498db;
+}
+
+.brown {
+    color: #fff;
+    background-color: #c5934c;
+}
+.brown:hover {
+    box-shadow: 0 0 5px 0 #b48c55 inset, 0 0 5px 4px #b48c55;
+}
+
+ul {
+    position: relative;
+    margin: 1em;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 15%;
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#refresh {
+    font-size: 0.8em;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    min-width: 4em;
+    min-height: 1.5em;
+    left: 6.5em;
+}
+#refresh:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+footer p{
+    position: fixed;
+    display: block;
+    color: white;
+    width: 100vw;
+    height: 1.5em;
+    background-color: black;
+    bottom: 0;
+    text-align: center;
+}
